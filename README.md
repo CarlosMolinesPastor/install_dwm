@@ -102,11 +102,13 @@ El script instala los siguientes paquetes (vía `paru`/`yay`):
 
 1. **Reinicia Xorg** (o cierra sesión y vuelve a entrar) para que dwm y st se inicien correctamente.
 2. **Configura NetworkManager** (si no está activo):
+
    ```bash
    sudo systemctl enable --now NetworkManager
    ```
-3. **Verifica que nm-applet se inicia — El script de autostart de dwm ya lo lanza.
-4. **Ajusta tus atajos — Revisa ~/.dwm/config.h y recompila si cambias algo
+   
+4. **Verifica que nm-applet se inicia — El script de autostart de dwm ya lo lanza.
+5. **Ajusta tus atajos — Revisa ~/.dwm/config.h y recompila si cambias algo
 
  ```bash
   cd ~/lnxdwm && sudo make clean install
