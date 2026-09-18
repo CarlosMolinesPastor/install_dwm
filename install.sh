@@ -150,7 +150,8 @@ copyFiles() {
     echo -e "$prefix Will make a sync if dwm, config and scripts doesn't exists."
 
         cd $HOME/Documents/
-        git clone --depth 1 https://github.com/linuxmobile/dwm-dots.git
+        # CAMBIO: Ahora clona TU repositorio de dotfiles
+        git clone --depth 1 https://github.com/CarlosMolinesPastor/dwm-dots.git
         rsync -avxHAXP --exclude '.git*' --exclude '*.md' dwm-dots/ ~/
     echo -e "$prefix Synced all configs files!"
     sleep 0.7
@@ -163,6 +164,7 @@ copyFiles() {
         cd $HOME/st/ && sudo make install
 
     echo -e "$prefix Make ST happen!"
+
     sleep 0.7
     echo -e "$prefix Synced files successfully."
     sleep 1.3
