@@ -50,7 +50,7 @@ Script de instalación automática para un entorno **dwm** minimalista y funcion
 Puedes clonar el repositorio y ejecutar el script manualmente:
 
 ```bash
-git clone https://github.com/tu-usuario/tu-repo.git
-cd tu-repo
+git clone https://github.com/CarlosMolinesPastor/install_dwm.git
+cd install_dwm
 chmod +x install.sh
 ./install.sh
