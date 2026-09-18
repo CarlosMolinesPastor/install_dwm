@@ -56,6 +56,8 @@ chmod +x install.sh
 ./install.sh
 ```
 
+---
+
 ## 🛠️ ¿Qué hace el script?
 
 El script sigue estos pasos, en orden:
